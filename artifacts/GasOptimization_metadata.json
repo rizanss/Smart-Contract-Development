@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newData",
+						"type": "string"
+					}
+				],
+				"name": "updateBoros",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_newData",
+						"type": "string"
+					}
+				],
+				"name": "updateHemat",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GasOptimization.sol": "GasOptimized"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GasOptimization.sol": {
+			"keccak256": "0x03c79855dab752efac9845e97fac5e221c9a0ccb7274f7292c35540675e364a9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://ef864cc76a2af25bac0ef6e4dc91e779a78d7900e5d88d2cea82335575d1e363",
+				"dweb:/ipfs/QmTQVgBeVapdEoqJJyYyHE1D7p4Q95SmAMnJPUppRgzet1"
+			]
+		}
+	},
+	"version": 1
+}
