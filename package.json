@@ -1,0 +1,17 @@
+{
+  "name": "smart-contract-development",
+  "version": "1.0.0",
+  "description": "Project for learning smart contract development with Solidity and Hardhat.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "hardhat": "^2.16.1",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.5.2"
+  }
+}
